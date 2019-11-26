@@ -108,7 +108,7 @@ Dados da API:
 		username: String
                 reset-password-controller: String
 	Response =
-		{status ggg: "Um e-mail com as instruções de como redefinir a sua senha foi enviado para você."}
+		{status 401: "Um e-mail com as instruções de como redefinir a sua senha foi enviado para você."}
 
 #informações: Usuário cadastra a senha
 	Endpoint= www.urlficticia.com.br/api/v1/emprestimos/<id>
